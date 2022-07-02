@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-path = 'C:\\Users\\Administrator\\Desktop\\data.txt'
+path = 'C:\\Users\\86187\\Desktop\\data.txt'
 data = pd.read_csv(path, header=None)
 plt.scatter(data[:][0], data[:][1], marker='+')
 data = np.array(data)
